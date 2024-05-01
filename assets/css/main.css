@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #A855F7;
+			color: #EF4444;
 		}
 
 	strong, b {
@@ -2106,7 +2106,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #A855F7;
+			border-color: #EF4444;
 		}
 
 	select {
@@ -2211,7 +2211,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #A855F7;
+			border-color: #EF4444;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2301,27 +2301,27 @@ input, select, textarea {
 		}
 
 		.icon.style1:before {
-			color: #EC4899;
+			color: #EF4444;
 		}
 
 		.icon.style2:before {
-			color: #F472B6;
+			color: #F97316;
 		}
 
 		.icon.style3:before {
-			color: #A855F7;
+			color: #DC2626;
 		}
 
 		.icon.style4:before {
-			color: #8B5CF6;
+			color: #B91C1C;
 		}
 
 		.icon.style5:before {
-			color: #6366F1;
+			color: #991B1B;
 		}
 
 		.icon.style6:before {
-			color: #4F46E5;
+			color: #7F1D1D;
 		}
 
 		.icon.major {
@@ -2823,10 +2823,10 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #1E1B4B;
+			background-color: #0F172A;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), linear-gradient(135deg, #4F46E5 0%, #6366F1 50%, #A855F7 100%);
+			background-image: url("images/overlay1.png"), linear-gradient(135deg, #1E293B 0%, #0F172A 25%, #7F1D1D 50%, #991B1B 75%, #DC2626 100%);
 			background-size: auto,							cover;
 		}
 
@@ -2914,10 +2914,10 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #7C3AED;
+		background-color: #0F172A;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(135deg, #EC4899 0%, #A855F7 35%, #6366F1 70%, #4F46E5 100%);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(135deg, #1E293B 0%, #0F172A 25%, #7F1D1D 50%, #991B1B 75%, #DC2626 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2975,9 +2975,9 @@ input, select, textarea {
 			#header input[type="button"].primary,
 			#header button.primary,
 			#header .button.primary {
-				background-color: #ffffff;
-				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #7C3AED !important;
+				background-color: #EF4444;
+				box-shadow: inset 0 0 0 1px #EF4444 !important;
+				color: #ffffff !important;
 			}
 
 				#header input[type="submit"].primary:hover,
@@ -3076,7 +3076,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(135deg, #A855F7, #6366F1);
+			background-image: linear-gradient(135deg, #DC2626, #991B1B);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3110,10 +3110,10 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #7C3AED;
+		background-color: #0F172A;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(135deg, #4F46E5 0%, #6366F1 35%, #A855F7 70%, #EC4899 100%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(135deg, #DC2626 0%, #991B1B 35%, #7F1D1D 70%, #0F172A 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3527,7 +3527,7 @@ input, select, textarea {
 
 	/* Skills section enhancements */
 	#two p strong {
-		color: #A855F7;
+		color: #EF4444;
 		font-weight: 600;
 		display: block;
 		margin-bottom: 0.5em;
@@ -3555,18 +3555,18 @@ input, select, textarea {
 
 	/* GitHub link emphasis */
 	#one .button.icon.fa-github {
-		background-color: #7C3AED;
+		background-color: #DC2626;
 		color: #ffffff !important;
-		border-color: #7C3AED;
+		border-color: #DC2626;
 	}
 
 	#one .button.icon.fa-github:hover {
-		background-color: #8B5CF6;
-		box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+		background-color: #EF4444;
+		box-shadow: 0 4px 12px rgba(220, 38, 38, 0.5);
 	}
 
-	/* Bug icon animation */
-	#header .icon.solid.major.fa-bug {
+	/* Shield icon animation */
+	#header .icon.solid.major.fa-shield-alt {
 		animation: float 3s ease-in-out infinite;
 	}
 
@@ -3590,7 +3590,7 @@ input, select, textarea {
 
 	/* Modern gradient text effect */
 	#header h1 strong {
-		background: linear-gradient(135deg, #ffffff 0%, #FCE7F3 50%, #F3E8FF 100%);
+		background: linear-gradient(135deg, #ffffff 0%, #FEE2E2 50%, #FEF2F2 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -3613,9 +3613,9 @@ input, select, textarea {
 		color: #ffffff !important;
 	}
 
-	/* QA-specific enhancements */
-	#header .icon.solid.major.fa-bug {
-		filter: drop-shadow(0 4px 8px rgba(236, 72, 153, 0.3));
+	/* Security-specific enhancements */
+	#header .icon.solid.major.fa-shield-alt {
+		filter: drop-shadow(0 4px 8px rgba(239, 68, 68, 0.4));
 	}
 
 	/* Enhanced card hover effects for competencies */
@@ -3624,12 +3624,14 @@ input, select, textarea {
 		border-radius: 12px;
 		padding: 2.5em;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		border: 1px solid rgba(239, 68, 68, 0.1);
 	}
 
 	#three .col-4:hover {
-		background: rgba(168, 85, 247, 0.1);
-		box-shadow: 0 10px 30px rgba(168, 85, 247, 0.2);
+		background: rgba(239, 68, 68, 0.1);
+		box-shadow: 0 10px 30px rgba(239, 68, 68, 0.3);
 		transform: translateY(-10px);
+		border-color: rgba(239, 68, 68, 0.3);
 	}
 
 	/* Icon pulse animation for QA icons */
@@ -3674,21 +3676,21 @@ input, select, textarea {
 
 	/* Modern button enhancements */
 	.button.primary {
-		background: linear-gradient(135deg, #A855F7 0%, #6366F1 100%);
+		background: linear-gradient(135deg, #DC2626 0%, #991B1B 100%);
 		border: none;
-		box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+		box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
 		transition: all 0.3s ease;
 	}
 
 	.button.primary:hover {
-		background: linear-gradient(135deg, #8B5CF6 0%, #4F46E5 100%);
-		box-shadow: 0 6px 20px rgba(168, 85, 247, 0.4);
+		background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+		box-shadow: 0 6px 20px rgba(239, 68, 68, 0.5);
 		transform: translateY(-2px);
 	}
 
 	/* Section background enhancements */
 	.main.style1 {
-		background: linear-gradient(to bottom, #ffffff 0%, #faf5ff 100%);
+		background: linear-gradient(to bottom, #ffffff 0%, #FEF2F2 100%);
 	}
 
 	/* Enhanced text readability */
@@ -3697,5 +3699,30 @@ input, select, textarea {
 	}
 
 	#two p strong {
-		text-shadow: 0 1px 2px rgba(168, 85, 247, 0.1);
+		text-shadow: 0 1px 2px rgba(239, 68, 68, 0.2);
+	}
+
+	/* Terminal/command line aesthetic for pentesting theme */
+	#two .icon.solid.major.fa-terminal {
+		font-family: 'Courier New', monospace;
+	}
+
+	/* Glitch effect for security theme */
+	@keyframes glitch {
+		0%, 100% {
+			text-shadow: 2px 0 #EF4444, -2px 0 #00ffff;
+		}
+		25% {
+			text-shadow: -2px 0 #EF4444, 2px 0 #00ffff;
+		}
+		50% {
+			text-shadow: 2px 0 #EF4444, -2px 0 #00ffff;
+		}
+		75% {
+			text-shadow: -2px 0 #EF4444, 2px 0 #00ffff;
+		}
+	}
+
+	#header h1 strong:hover {
+		animation: glitch 0.3s infinite;
 	}
